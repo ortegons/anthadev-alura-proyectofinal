@@ -11,14 +11,15 @@
 .encriptador-1-desktop {
   overflow: hidden;
   display: flex;
-  gap: 5rem;
+  gap: 5vh;
   align-items: center;
   justify-content: center;
-  padding-bottom: 2rem;
+  padding-bottom: 2vh;
   
 }
 @media (max-width: 991px) {
   .encriptador-1-desktop {
+    flex-direction: column;
     padding: 0 1.4rem;
   }
 }
@@ -59,8 +60,8 @@
 .logo {
   padding-left:2rem ;
   display: flex;
-  min-height: 3rem;
-  width: 7.5rem;
+  min-height: 3vh;
+  width: 15vh;
   max-width: 100%;
   flex-direction: column;
   justify-content: left;
@@ -92,20 +93,20 @@
 .ingresa-el-texto-aqui {
   color: rgba(38, 254, 3, 1);
   align-self: start;
-  font: 400 32px Koulen, sans-serif;
+  font: 400 4vh Koulen, sans-serif;
 }
 .text-area {
 
-  border-radius: 25px;
+  border-radius: 1.5rem;
   border-color: transparent;
   box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
   background-color: rgba(96, 0, 209, 0.45);
   display: flex;
   color: rgba(38, 254, 3, 1);
-  font: 400 24px Livvic, sans-serif;
+  font: 400 3vh Livvic, sans-serif;
   margin-top: 46px;
   min-height: 50%;
-  height: 50%;
+  height: 55%;
   padding: 15px;
   resize: none;
   outline:none;
@@ -128,23 +129,24 @@
 .div-5 {
   align-self: start;
   display: flex;
-  margin-top: 51px;
+  margin-top: 3.1vh;
   align-items: center;
-  gap: 8px;
+  gap: 0.8vh;
   color: rgba(206, 212, 218, 1);
   justify-content: start;
-  font: 12px Inter, sans-serif;
+  font: 1.5vh Inter, sans-serif;
 }
 @media (max-width: 991px) {
   .div-5 {
     margin-top: 40px;
   }
 }
+
 .img-2 {
   aspect-ratio: 1;
   object-fit: contain;
   object-position: center;
-  width: 16px;
+  width: 1.6vh;
   align-self: stretch;
   margin: auto 0;
 }
@@ -152,33 +154,32 @@
   align-self: stretch;
   margin: auto 0;
 }
-.div-6 {
+.div-botones {
   display: flex;
-  margin-top: 16px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2vh;
   width: 100%;
-  align-items: start;
-  gap: 20px 24px;
-  font-size: 16px;
-  white-space: nowrap;
-  text-align: center;
-  justify-content: start;
-  flex-wrap: wrap;
+  gap: 2vh 3vh;
+ 
 }
 @media (max-width: 991px) {
-  .div-6 {
+  .div-botones {
+    flex-direction: column;
     max-width: 100%;
     white-space: initial;
   }
 }
 .button {
   flex: 1;
-  border-radius: 24px;
+  border-radius: 25px;
   background-color: rgba(38, 254, 3, 0.85);
-  min-width: 240px;
-  font: 400 18px Livvic, sans-serif;
+  min-width: 24vh;
+  font: 400 2.4vh Livvic, sans-serif;
   color:  rgba(36, 1, 77, 0.80);
   flex-grow: 1;
-  width: 262px;
+  width: 100%;
+  min-height: 6vh;
   padding: 18px;
   border: none;
 }
@@ -197,14 +198,15 @@
 }
 .button-2 {
   flex: 1;
-  border-radius: 24px;
+  border-radius: 25px;
   background-color: rgba(255, 255, 255, 0.75);
-  min-width: 240px;
-  font: 400 18px Livvic, sans-serif;
+  min-width: 24vh;
+  font: 400 2.4vh Livvic, sans-serif;
   color:  rgba(36, 1, 77, 0.70);
   flex-grow: 1;
-  width: 262px;
-  padding: 18px;
+  width: 100%;
+  padding: 2vh;
+  min-height: 6vh;
   border: none;
   overflow: hidden;
   
@@ -264,7 +266,7 @@
   text-align: center;
   align-items: center;
   justify-content: center;
-  width: 35rem;
+  width: 70vh;
   height: 80vh;
   padding: 0;
   
@@ -290,15 +292,15 @@
   justify-content: center;
 }
 .ning-un-mensaje-fue-encontrado {
-  font: 24px/1.2 Koulen, sans-serif;
+  font: 3vh Koulen, sans-serif;
 }
 .ingresa-el-texto-que-desees-encriptar-o-desencriptar {
   margin-top: 0.5rem;
-  font: 16px/24px Livvic, sans-serif;
+  font: 2.2vh Livvic, sans-serif;
 }
 
 .resultadoTitulo{
-  font: 24px/1.2 Koulen, sans-serif;
+  font: 3vh Koulen, sans-serif;
 
 }
 
@@ -306,11 +308,11 @@
   padding: 1.5em;
   position: relative;
   display: none;
-  gap: 2em;
+  gap: 5vh;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  font: 24px Livvic, sans-serif;
+  font: 3vh Livvic, sans-serif;
   word-break: break;
   white-space: normal;
 }
@@ -319,12 +321,14 @@
   flex: 1;
   border-radius: 24px;
   background-color: rgba(117, 42, 205, 1);
-  min-width: 140px;
-  font: 400 18px Livvic, sans-serif;
+  min-width: 16vh;
+  font: 400 2.4vh Livvic, sans-serif;
   color:  rgb(255, 255, 255);
   flex-grow: 1;
   width: 152px;
   padding: 18px;
+  min-height: 6vh;
+
   border: none;
 }
 
@@ -341,9 +345,3 @@
   -ms-transform: rotate(1deg);
 }
 
-.footer{
-  background-color: rgba(38, 254, 3, 0.85);
-  padding: 0.25rem;
-  font: 24px/1.2 Koulen, sans-serif;
-  text-align: center;
-}
