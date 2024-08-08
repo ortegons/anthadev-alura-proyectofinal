@@ -107,7 +107,7 @@
   margin-top: 46px;
   min-height: 50%;
   height: 55%;
-  padding: 15px;
+  padding: 4vh;
   resize: none;
   outline:none;
 }
@@ -299,17 +299,18 @@
 .ingresa-el-texto-que-desees-encriptar-o-desencriptar {
   margin-top: 0.5rem;
   font: 2.2vh Livvic, sans-serif;
-  word-break: break;
+  word-break: break-all;
   white-space: normal;
 }
 
 .resultadoTitulo{
+
   font: 3vh Koulen, sans-serif;
 
 }
 
 .resultadoSection{
-  padding: 1.5em;
+  padding: 0.5em;
   position: relative;
   display: none;
   gap: 5vh;
@@ -317,7 +318,7 @@
   justify-content: center;
   align-items: center;
   font: 3vh Livvic, sans-serif;
-  word-break: break;
+  word-break: break-all;
   white-space: normal;
 }
 
