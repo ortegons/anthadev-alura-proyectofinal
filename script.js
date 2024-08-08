@@ -21,7 +21,6 @@ function cambiarElementos(texto) {
     }else{
         noMensaje.style.display = "block";
         resultadoSection.style.display= "none";
-        alert("Ingresa un mensaje para encriptar");
     }
     
 }
