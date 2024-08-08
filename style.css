@@ -97,7 +97,7 @@
 }
 .text-area {
 
-  border-radius: 1.5rem;
+  border-radius: 5vh;
   border-color: transparent;
   box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
   background-color: rgba(96, 0, 209, 0.45);
@@ -172,7 +172,7 @@
 }
 .button {
   flex: 1;
-  border-radius: 25px;
+  border-radius: 4vh;
   background-color: rgba(38, 254, 3, 0.85);
   min-width: 24vh;
   font: 400 2.4vh Livvic, sans-serif;
@@ -180,7 +180,7 @@
   flex-grow: 1;
   width: 100%;
   min-height: 6vh;
-  padding: 18px;
+  padding: 2vh;
   border: none;
 }
 
@@ -198,7 +198,7 @@
 }
 .button-2 {
   flex: 1;
-  border-radius: 25px;
+  border-radius: 4vh;
   background-color: rgba(255, 255, 255, 0.75);
   min-width: 24vh;
   font: 400 2.4vh Livvic, sans-serif;
@@ -257,7 +257,7 @@
 }
 .div-result {
   display: flex;
-  border-radius: 32px;
+  border-radius: 4vh;
   box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
   background-color: var(--fONDO-2, #fff);
   flex-direction: column;
@@ -267,7 +267,7 @@
   align-items: center;
   justify-content: center;
   height: 75vh;
-  padding: 0;
+
   padding: 2rem;
   width: 75vh;
   
@@ -323,7 +323,7 @@
 
 .copiar {
   flex: 1;
-  border-radius: 24px;
+  border-radius: 4vh;
   background-color: rgba(117, 42, 205, 1);
   min-width: 16vh;
   font: 400 2.4vh Livvic, sans-serif;
