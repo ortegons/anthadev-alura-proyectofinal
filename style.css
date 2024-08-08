@@ -57,6 +57,7 @@
   }
 }
 .logo {
+  padding-left:2rem ;
   display: flex;
   min-height: 3rem;
   width: 7.5rem;
