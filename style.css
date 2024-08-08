@@ -266,16 +266,18 @@
   text-align: center;
   align-items: center;
   justify-content: center;
-  width: 70vh;
-  height: 80vh;
+  height: 75vh;
   padding: 0;
+  padding: 2rem;
+  width: 75vh;
   
 }
 @media (max-width: 991px) {
   .div-result {
     margin-top: 40px;
-    padding: 100px 20px;
+    padding: 75px 20px;
     height: auto;
+    width: 100%;
   }
 }
 .img-3 {
@@ -297,6 +299,8 @@
 .ingresa-el-texto-que-desees-encriptar-o-desencriptar {
   margin-top: 0.5rem;
   font: 2.2vh Livvic, sans-serif;
+  word-break: break;
+  white-space: normal;
 }
 
 .resultadoTitulo{
